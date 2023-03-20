@@ -1,0 +1,51 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+div.container{
+  max-width: 1000px;
+  overflow: hidden;
+  
+}
+
+input::placeholder {
+  vertical-align: baseline;
+  font-size:12px;
+}
+
+header.login h1.main_logo{
+  font-family: 'Jua', sans-serif;
+}
+header.login form{
+  height:40px;
+}
+
+
+div.runner_menu{
+  line-height:60px;
+}
+div.runner_menu a{
+  letter-spacing: -1px;
+  margin-right: 10px;
+  color:black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+div.body_main{
+  border: 2px solid  rgb(210, 210, 210);
+  border-radius: 10px;
+  padding:20px;
+}
+div.body_side{
+  border: 2px solid  rgb(210, 210, 210);
+  border-radius: 10px;
+  padding:20px;
+}
