@@ -11,6 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+/>
 </head>
 <body>
     <div class="container mt-5 g-0">
@@ -21,7 +25,7 @@
         <div class="d-flex justify-content-between mt-4">
           <div class="container">
             <div class="row row-cols-1">
-              <div class="col text-start"><h4>송진호</h4></div>
+              <div class="col text-start"><h4 style="margin: 0%;">송진호&nbsp;&nbsp;<i class="fas fa-male"></i></h4></div>
               <div class="col s-6 text-start">thdx416@naver.com<span class="badge rounded-pill" style="background-color:#FEE500; color:#282B33; line-height: 0.5rem;">Kakao</span></div>
             </div>
           </div>
@@ -29,26 +33,38 @@
     </div>
     </div>
       <div class="card-body">
-        <div class="row justify-content-center">
+
+
+        <div class="row justify-content-center mt-3 text-center">
+          <div class="col-2">
+        <i class="fas fa-temperature-low"></i>
+      </div>
+      <div class="col-8">
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+      </div>
+
+        <div class="row justify-content-center mt-3 text-center">
           <div class="col-4">
             <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-              <div class="card-header">참여권</div>
+              <div class="card-header">참여횟수</div>
               <div class="card-body">
-                <h4 class="card-title">갯수</h4>
-                <p class="card-text">1 장</p>
+                <p class="card-text">1 회</p>
               </div>
           </div>
           </div>
           <div class="col-4">
             <div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
-              <div class="card-header">주최권</div>
+              <div class="card-header">주최횟수</div>
               <div class="card-body">
-                <h4 class="card-title">갯수</h4>
-                <p class="card-text">1 장</p>
+                <p class="card-text">1 회</p>
               </div>
             </div>
           </div>
         </div>
+
     </div>
     </div>
     </div>
@@ -58,8 +74,9 @@
     <h3 class="card-header">나의 플랩</h3>
     <ul class="list-group list-group-flush">
       <li class="list-group-item"><img src="https://plab-football.s3.amazonaws.com/static/img/ic_myplab_color.svg" alt="신청 내역">신청 내역</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
+      
+      <li class="list-group-item"><img src="https://plab-football.s3.amazonaws.com/static/img/ic_friend.svg" alt="친구">친구 목록</li>
+      <li class="list-group-item"><i class="far fa-heart"></i>찜한 목록</li>
     </ul>
     <ul class="list-group list-group-flush">
       <li class="list-group-item"> 고객 센터</li>
