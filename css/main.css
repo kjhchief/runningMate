@@ -55,6 +55,7 @@ div.run_list tbody tr{
   vertical-align: middle;
 }
 div.run_list th{
+  width:140px;
   font-size: 16px;
 }
 div.run_list td:nth-child(2){
@@ -63,7 +64,14 @@ div.run_list td:nth-child(2){
 div.run_list td:nth-child(3){
   text-align: right;
 }
+div.run_list td:last-child{
+  width: 240px;
+  text-align: center;
+}
 div.run_list button{
+  font-size:14px;
+  font-weight: 600;
+  height:35px;
   width:80px;
 }
 div.run_list div.prop{
