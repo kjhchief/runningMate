@@ -7,6 +7,10 @@
 
 a{
   text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:primary;
 }
 
 div.container{
@@ -114,7 +118,21 @@ ul.match_notice li{
 }
 
 
+ul.join_list>li{
+  margin-bottom: 15px;
+}
 
+ul.join_list>li>a{
+  font-weight: 600;
+}
+
+p.join_waiting{
+
+}
+span.now_wait{
+  font-weight: 600;
+  color:rgb(69, 130, 236);
+}
 
 p.application_time{
   font-size: 16px;
