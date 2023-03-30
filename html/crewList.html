@@ -16,7 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
     <style>
-      h4.join_list{
+
+      div.join_list{
         color:white;
         border-radius: 15px;
         font-size: 20px;
@@ -83,10 +84,18 @@
       </div>
 
       
+      <div class="dropdown text-end list_drop">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">전체</a></li>
+          <li><a class="dropdown-item" href="#">참여 크루</a></li>
+          <li><a class="dropdown-item" href="#">전체 크루</a></li>
+        </ul>
+      </div>
 
       <!-- 참여 크루 -->
-      <h4 class="join_list bg-primary p-3 mt-5 mb-0">참여 크루</h4>
       <div class="join_list">
+        <div class="join_list bg-primary p-3 mt-2 mb-0">참여 크루</div>
         <table class="table table-hover text-center w-100">
           <tbody>
             <tr>
@@ -110,8 +119,8 @@
 
       
       <!-- 모집 크루 -->
-      <h4 class="join_list bg-primary p-3 mt-5 mb-0">모집 크루</h4>
       <div class="join_list">
+        <div class="join_list bg-primary p-3 mt-5 mb-0">모집 크루</div>
         <table class="table table-hover text-center w-100">
           <tbody>
             <tr>
